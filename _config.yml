@@ -1,6 +1,6 @@
 title: Wei Chen's Homepage
 url: "https://weichennone.github.io/"
-baseurl: "myhomepage"
+baseurl: "/myhomepage"
 
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
@@ -17,7 +17,7 @@ sass:
 
 nav:
  - name: "About"
-   link: "/researcher/"
+   link: "/myhomepage/"
 #  - name: "Resume"
 #    link: "resume.pdf"
  - name: "Contact"
