@@ -8,6 +8,8 @@ layout: default
 
 Hi! I am a first year PhD student of Electrical and Computer Engineering at Purdue University, West Lafayette.
 
+<!-- This is a [link](http://google.com). -->
+
 <!-- This is a jekyll based resume template. You can find the full source code on [GitHub](https://github.com/bk2dcradle/researcher) -->
 
 ## Research Interest
@@ -19,9 +21,13 @@ Hi! I am a first year PhD student of Electrical and Computer Engineering at Purd
 
 ## News
 
-* Aug, 2021: I join QLab at Purdue University, working with professor Qiang Qiu.
+* April, 2022: I served as a PC reviewer for CVPR workshop, Vision Datasets Understanding
+* Jan, 2022: I served as a reviewer for CVPR
+* Aug, 2021: I joined QLab at Purdue University, working with professor Qiang Qiu.
 
 ## Publications
+
+* Zichen Miao, Ze Wang, **Wei Chen**, Qiang Qiu: *Continual Learning with Filter Atom Swapping*, (2022) International Conference on Learning Representations (ICLR)
 
 * I Beak, **W Chen**, Z Zhu, S Samii, R Rajkumar: *FT-DeepNets: Fault-Tolerant Convolutional Neural Networks with Kernel-based Duplication*, (2022) IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 
