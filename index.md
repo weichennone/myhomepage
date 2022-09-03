@@ -21,6 +21,9 @@ Hi! I am a first year PhD student of Electrical and Computer Engineering at Purd
 
 ## News
 
+* Aug, 2022: I am now TA for ECE-570, Artificial Intelligence
+* July, 2022: I served as a reviewer for NeurIPS
+* May, 2022: I served as a reviewer for ECCV
 * April, 2022: I served as a PC reviewer for CVPR workshop, Vision Datasets Understanding
 * Jan, 2022: I served as a reviewer for CVPR
 * Aug, 2021: I joined QLab at Purdue University, working with professor Qiang Qiu.
