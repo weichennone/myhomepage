@@ -23,6 +23,6 @@ is_contact: true
 
 ## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
+1. [Linkedin](www.linkedin.com/in/wei-chen-0793)
+<!-- 2. [Twitter](#) -->
+<!-- 3. [Google+](#) -->
