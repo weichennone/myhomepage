@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="weichen.jpeg">
 
-Hi! I am a first year PhD student of Electrical and Computer Engineering at Purdue University, West Lafayette.
+Hi! I am a second year PhD student of Electrical and Computer Engineering at Purdue University, West Lafayette.
 
 <!-- This is a [link](http://google.com). -->
 
@@ -14,9 +14,9 @@ Hi! I am a first year PhD student of Electrical and Computer Engineering at Purd
 
 ## Research Interest
 
-1. Unsupervised Learning: Optimal transportation
+1. Unsupervised Learning: Optimal transportation, Diffusion model
 2. Continual Learning: Catastrophic forgetting, Model ensemble
-3. Federated Learning: Non-IID data
+3. Federated Learning: Non-IID data, Model aggregation methods
 4. Autonomous Driving
 
 ## News
