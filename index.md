@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="weichen.jpeg">
 
-Hi! I am a second year PhD student of Electrical and Computer Engineering at Purdue University, West Lafayette.
+Hi! I am a third year PhD student of Electrical and Computer Engineering at Purdue University, West Lafayette.
 
 <!-- This is a [link](http://google.com). -->
 
@@ -21,7 +21,12 @@ Hi! I am a second year PhD student of Electrical and Computer Engineering at Pur
 
 ## News
 
-* Aug, 2022: I am now TA for ECE-570, Artificial Intelligence
+* Sep, 2023: Our paper *Inner Product-based Neural Network Similarity* is accepted by NeurIPS.
+* July, 2023: I served as a reviewer for NeurIPS
+* Mar, 2023: I served as a reviewer for ICML
+* Jan, 2023: I served as a reviewer for CVPR
+* Jan, 2023: I am now TA for ECE-50024, Machine Learning
+* Aug, 2022: I am now TA for ECE-57000, Artificial Intelligence
 * July, 2022: I served as a reviewer for NeurIPS
 * May, 2022: I served as a reviewer for ECCV
 * April, 2022: I served as a PC reviewer for CVPR workshop, Vision Datasets Understanding
@@ -29,6 +34,8 @@ Hi! I am a second year PhD student of Electrical and Computer Engineering at Pur
 * Aug, 2021: I joined QLab at Purdue University, working with professor Qiang Qiu.
 
 ## Publications
+
+* **Wei Chen**, Zichen Miao*, Qiang Qiu, Inner Product-based Neural Network Similarity, NeurIPS (2023)
 
 * Zichen Miao, Ze Wang, **Wei Chen**, Qiang Qiu: *Continual Learning with Filter Atom Swapping*, (2022) International Conference on Learning Representations (ICLR)
 
