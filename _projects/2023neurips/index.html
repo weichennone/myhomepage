@@ -40,7 +40,7 @@
 </head>
 <body>
 
-<nav class="navbar" role="navigation" aria-label="main navigation">
+<!-- <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
       <span aria-hidden="true"></span>
@@ -78,7 +78,7 @@
     </div>
 
   </div>
-</nav>
+</nav> -->
 
 
 <section class="hero">
@@ -86,37 +86,23 @@
     <div class="container is-max-desktop">
       <div class="columns is-centered">
         <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">Nerfies: Deformable Neural Radiance Fields</h1>
+          <h1 class="title is-1 publication-title">Inner Product-based Neural Network Similarity</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span>
+              <a href="https://weichennone.github.io/">Wei Chen</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://utkarshsinha.com">Utkarsh Sinha</a><sup>2</sup>,</span>
+              <a href="https://zichenmiao.github.io/">Zichen Miao</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="https://jonbarron.info">Jonathan T. Barron</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://sofienbouaziz.com">Sofien Bouaziz</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://www.danbgoldman.com">Dan B Goldman</a><sup>2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="https://homes.cs.washington.edu/~seitz/">Steven M. Seitz</a><sup>1,2</sup>,
-            </span>
-            <span class="author-block">
-              <a href="http://www.ricardomartinbrualla.com">Ricardo Martin-Brualla</a><sup>2</sup>
+              <a href="https://web.ics.purdue.edu/~qqiu/">Qiang Qiu</a><sup>1</sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>Purdue University</span>
           </div>
 
-          <div class="column has-text-centered">
+          <!-- <div class="column has-text-centered">
             <div class="publication-links">
-              <!-- PDF Link. -->
               <span class="link-block">
                 <a href="https://arxiv.org/pdf/2011.12948"
                    class="external-link button is-normal is-rounded is-dark">
@@ -135,7 +121,6 @@
                   <span>arXiv</span>
                 </a>
               </span>
-              <!-- Video Link. -->
               <span class="link-block">
                 <a href="https://www.youtube.com/watch?v=MrKrnHhk8IA"
                    class="external-link button is-normal is-rounded is-dark">
@@ -145,7 +130,6 @@
                   <span>Video</span>
                 </a>
               </span>
-              <!-- Code Link. -->
               <span class="link-block">
                 <a href="https://github.com/google/nerfies"
                    class="external-link button is-normal is-rounded is-dark">
@@ -155,7 +139,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
               <span class="link-block">
                 <a href="https://github.com/google/nerfies/releases/tag/0.1"
                    class="external-link button is-normal is-rounded is-dark">
@@ -166,14 +149,14 @@
                   </a>
             </div>
 
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -187,10 +170,10 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -245,7 +228,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -256,39 +239,38 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Analyzing representational similarity among neural networks (NNs) is essential
+            for interpreting or transferring deep models. In application scenarios where numerous
+            NN models are learned, it becomes crucial to assess model similarities
+            in computationally efficient ways. 
           </p>
           <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
+            In this paper, we propose a new paradigm for
+            reducing NN representational similarity to filter subspace distance. Specifically,
+            when convolutional filters are decomposed as a linear combination of a set of
+            filter subspace elements, denoted as <i>filter atoms</i>, and have those decomposed atom
+            coefficients shared across networks, NN representational similarity can be significantly
+            simplified as calculating the cosine distance among respective filter atoms,
+            to achieve <i>millions of times</i> computation reduction over popular probing-based
+            methods. 
           </p>
           <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            We provide both theoretical and empirical evidence that such simplified
+            filter subspace-based similarity preserves a strong linear correlation with other
+            popular probing-based metrics, while being significantly more efficient to obtain
+            and robust to probing data. We further validate the effectiveness of the proposed
+            method in various application scenarios where numerous models exist, such as
+            federated and continual learning as well as analyzing training dynamics. We hope
+            our findings can help further explorations of real-time large-scale representational
+            similarity analysis in neural networks.
           </p>
         </div>
       </div>
-    </div>
-    <!--/ Abstract. -->
+    </div> 
+    <!--/ Abstract.-->
 
     <!-- Paper video. -->
-    <div class="columns is-centered has-text-centered">
+    <!-- <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Video</h2>
         <div class="publication-video">
@@ -296,7 +278,7 @@
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
+    </div> -->
     <!--/ Paper video. -->
   </div>
 </section>
@@ -308,7 +290,7 @@
     <div class="columns is-centered">
 
       <!-- Visual Effects. -->
-      <div class="column">
+      <!-- <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
           <p>
@@ -320,11 +302,11 @@
                     type="video/mp4">
           </video>
         </div>
-      </div>
+      </div> -->
       <!--/ Visual Effects. -->
 
       <!-- Matting. -->
-      <div class="column">
+      <!-- <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
           <div class="column content">
@@ -339,7 +321,7 @@
           </div>
 
         </div>
-      </div>
+      </div> -->
     </div>
     <!--/ Matting. -->
 
@@ -439,7 +421,7 @@
 </section>
 
 
-<section class="section" id="BibTeX">
+<!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{park2021nerfies,
@@ -449,7 +431,7 @@
   year      = {2021},
 }</code></pre>
   </div>
-</section>
+</section> -->
 
 
 <footer class="footer">
