@@ -292,7 +292,7 @@
         <div class="content has-text-justified">
           <p>
             Filter subspace-based representational similarity:
-            (1) Represent convolutional filters <b>w</b> as filter atoms <b>D</b> (filter subspace elements) and atom coefficients &alpha.
+            (1) Represent convolutional filters <b>w</b> as filter atoms <b>D</b> (filter subspace elements) and atom coefficients &alpha;.
             (2) Calculates the filter subspace similarity between a small portion of parameters, i.e., filter atoms.
           </p>
         </div>
@@ -449,6 +449,61 @@
         <img src="./static/images/results_1.png"
                class="system-diagram"
                alt="Compare our method with probe-based method."/>
+      </div> 
+
+      <div class="content has-text-justified">
+        <p>
+          Our filter subspace similarity shows strong correlation with (a) Grassmann similarity 
+          and (b) CCA.
+        </p>
+      </div>
+      <div class="content has-text-centered">
+        <img src="./static/images/results_2.png"
+               class="system-diagram"
+               alt="Strong correlations."/>
+      </div> 
+
+      <div class="content has-text-justified">
+        <p>
+          Classification accuracy of model ensemble using different FL methods and model selection
+          strategies: Models are selected with different similarity measures in each setting. The model ensemble
+          using our filter subspace-based method is millions of times faster and consumes much fewer resources
+          than probing-based methods while producing comparable performance.
+        </p>
+      </div>
+      <div class="content has-text-centered">
+        <img src="./static/images/results_3.png"
+               class="system-diagram"
+               alt="FL results."/>
+      </div> 
+
+      <div class="content has-text-justified">
+        <p>
+          Continual Learning Results. The model ensemble using our filter subspace similarity
+          is significantly faster and consumes much fewer resources than probing-based methods, while
+          maintaining comparable classification accuracy.
+        </p>
+      </div>
+      <div class="content has-text-centered">
+        <img src="./static/images/results_4.png"
+               class="system-diagram"
+               alt="CL results."/>
+      </div> 
+
+      <div class="content has-text-justified">
+        <p>
+          Continual Learning Results with ViT.
+        </p>
+      </div>
+      <div class="content has-text-centered">
+        <img src="./static/images/results_5.png"
+               class="system-diagram"
+               alt="CL results with ViT 1."/>
+      </div> 
+      <div class="content has-text-centered">
+        <img src="./static/images/results_6.png"
+               class="system-diagram"
+               alt="CL results with ViT 2."/>
       </div> 
     </div>
     <!--/ Conclusion.-->
