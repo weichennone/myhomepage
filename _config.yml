@@ -5,6 +5,9 @@ baseurl: "/"
 markdown: kramdown
 #ins_logo: "./bits-logo.png"
 
+include:
+  - _projects
+
 tracking_id: #
 
 footer: yes
