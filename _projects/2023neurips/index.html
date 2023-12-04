@@ -287,7 +287,37 @@
   <div class="container is-max-desktop">
 
     <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Methods</h2>
+        <div class="content has-text-justified">
+          <p>
+            Filter subspace-based representational similarity:
+            (1) Represent convolutional filters <b>w</b> as filter atoms <b>D</b> (filter subspace elements) and atom coefficients &alpha.
+            (2) Calculates the filter subspace similarity between a small portion of parameters, i.e., filter atoms.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/sys_diag.png"
+                 class="system-diagram"
+                 alt="Compare our method with probe-based method."/>
+        </div> 
+      </div>
 
+      <div class="column is-full-width">
+        <h2 class="title is-3">Results</h2>
+        <div class="content has-text-justified">
+          <p>
+            (a) The ratio of the computational cost savings of our filter subspace similarity over probing-based similarities.
+            (b) Out-of-distribution data have negative impact on probing-based similarity, while no impact on our filter subspace similarity since it does not rely on probing data.
+          </p>
+        </div>
+        <div class="content has-text-centered">
+          <img src="./static/images/results_1.png"
+                 class="system-diagram"
+                 alt="Compare our method with probe-based method."/>
+        </div> 
+      </div>
+    </div>
       <!-- Visual Effects. -->
       <!-- <div class="column">
         <div class="content">
@@ -321,13 +351,13 @@
 
         </div>
       </div> -->
-    </div>
+    <!-- </div> -->
     <!--/ Matting. -->
 
     <!-- Animation. -->
-    <div class="columns is-centered">
+    <!-- <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
+        <h2 class="title is-3">Animation</h2> -->
 
         <!-- Interpolating. -->
         <!-- <h3 class="title is-4">Interpolating states</h3>
@@ -384,8 +414,8 @@
         </div> -->
         <!--/ Re-rendering. -->
 
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
     <!--/ Animation. -->
 
 
@@ -419,6 +449,29 @@
   </div>
 </section>
 
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Conclusion. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Conclusion</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this paper, we proposed a new paradigm for reducing representational 
+            similarity analysis in CNNs to filter subspace distance assessment, 
+            which is targeted for application scenarios where numerous models 
+            are learned. We provided both theoretical and empirical evidence 
+            that the proposed filter subspace-based similarity exhibits a 
+            strong linear correlation with popular probing-based metrics 
+            while being significantly more efficient and robust in probing data.
+          </p>
+        </div>
+      </div>
+    </div> 
+    <!--/ Conclusion.-->
+
+  </div>
+</section>
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
