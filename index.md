@@ -35,7 +35,7 @@ Hi! I am a third year PhD student of Electrical and Computer Engineering at Purd
 
 ## Publications
 
-* **Wei Chen**, Zichen Miao*, Qiang Qiu, Inner Product-based Neural Network Similarity, NeurIPS (2023)
+* **Wei Chen**, Zichen Miao, Qiang Qiu, Inner Product-based Neural Network Similarity, NeurIPS (2023) [Project Page]({{site.baseurl}}/_projects/2023neurips/index.html)
 
 * Zichen Miao, Ze Wang, **Wei Chen**, Qiang Qiu: *Continual Learning with Filter Atom Swapping*, (2022) International Conference on Learning Representations (ICLR)
 
