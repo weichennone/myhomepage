@@ -4,7 +4,7 @@ layout: default
 
 ## About Me
 
-<img class="profile-picture" src="weichen.jpeg">
+<img class="profile-picture" src="weichen.JPG">
 
 Hi! I am a 4th year PhD student of [Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at Purdue University, West Lafayette. My advisor is [Prof. Qiang Qiu](https://web.ics.purdue.edu/~qqiu/). 
 
