@@ -6,7 +6,11 @@ layout: default
 
 <img class="profile-picture" src="weichen.jpeg">
 
-Hi! I am a 4th year PhD student of [Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at Purdue University, West Lafayette.
+Hi! I am a 4th year PhD student of [Electrical and Computer Engineering](https://engineering.purdue.edu/ECE) at Purdue University, West Lafayette. My advisor is [Prof. Qiang Qiu](https://web.ics.purdue.edu/~qqiu/). 
+
+Previously, I got my M.S. from [Carnegie Mellon University](https://www.ece.cmu.edu/), Pittsburgh. I was advised by [Prof. Radu Marculescu](https://www.ece.utexas.edu/people/faculty/radu-marculescu) in 2019 and worked at [CyLab](https://www.cylab.cmu.edu/research/index.html) with [Prof. Raj Rajkumar](https://users.ece.cmu.edu/~raj/) in 2020. 
+
+I earned my B.S. and M.S. from [Nanjing University](https://www.nju.edu.cn/en/) in 2015 and 2018 respectively. 
 
 <!-- This is a [link](http://google.com). -->
 
@@ -53,6 +57,7 @@ Hi! I am a 4th year PhD student of [Electrical and Computer Engineering](https:/
 ## News
 
 * May, 2024: I start my internship at Amazon as Applied Scientist.
+* May, 2024: I have passed my preliminary exam, and officially become PhD candidate.
 * Sep, 2023: Our paper *Inner Product-based Neural Network Similarity* is accepted by NeurIPS.
 * July, 2023: I served as a reviewer for NeurIPS
 * Mar, 2023: I served as a reviewer for ICML
