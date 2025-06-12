@@ -32,9 +32,15 @@ I earned my B.S. and M.S. from [Nanjing University](https://www.nju.edu.cn/en/) 
 ### Preprints
 * Taewook Kim, **Wei Chen**, and Qiang Qiu, *Learning to Customize Text-to-Image Diffusion In Diverse Context*", (2024) arXiv preprint arXiv:2410.10058, [Paper](https://arxiv.org/abs/2410.10058)
 
-* **Wei Chen**, Zichen Miao, and Qiang Qiu, *Parameter-efficient tuning of large convolutional models*, (2024) arXiv preprint arXiv:2403.00269, [Paper](https://arxiv.org/abs/2403.00269)
+
 
 ### Conference
+* Zichen Miao, **Wei Chen**, and Qiang Qiu, *Coeff-Tuning: A Graph Filter Subspace View for Tuning Attention-Based Large Models*, (2025) Computer Vision and Pattern Recognition Conference, [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Miao_Coeff-Tuning_A_Graph_Filter_Subspace_View_for_Tuning_Attention-Based_Large_CVPR_2025_paper.pdf)
+
+
+* **Wei Chen**, Zichen Miao, and Qiang Qiu, *Large convolutional model tuning via filter subspace*, (2025) International Conference on Learning Representations, [Paper](https://arxiv.org/abs/2403.00269)
+
+
 * **Wei Chen**, Zichen Miao, Qiang Qiu, *Inner Product-based Neural Network Similarity*, NeurIPS (2023) [Project Page]({{site.baseurl}}/_projects/2023neurips/index.html), [Paper](https://proceedings.neurips.cc/paper_files/paper/2023/file/ea7623ff02edffe68866f88da2667592-Paper-Conference.pdf)
 
 * Atul Sharma, **Wei Chen**, Joshua Zhao, Qiang Qiu, Saurabh Bagchi, Somali Chaterji. *Flair: Defense against model poisoning attack in federated learning*, (2023) ACM Asia Conference on Computer and Communications Security, [Paper](https://dl.acm.org/doi/abs/10.1145/3579856.3582836)
