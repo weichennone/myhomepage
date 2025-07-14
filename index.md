@@ -35,6 +35,8 @@ I earned my B.S. and M.S. from [Nanjing University](https://www.nju.edu.cn/en/) 
 
 
 ### Conference
+* **Wei Chen**, Jingxi Yu, Zichen Miao, and Qiang Qiu, *Sparse Fine-Tuning of Transformers for Generative Tasks*, (2025) International Conference on Computer Vision, [Project]({{site.baseurl}}/_projects/2025iccv/index.html)
+
 * Zichen Miao, **Wei Chen**, and Qiang Qiu, *Coeff-Tuning: A Graph Filter Subspace View for Tuning Attention-Based Large Models*, (2025) Computer Vision and Pattern Recognition Conference, [Paper](https://openaccess.thecvf.com/content/CVPR2025/papers/Miao_Coeff-Tuning_A_Graph_Filter_Subspace_View_for_Tuning_Attention-Based_Large_CVPR_2025_paper.pdf), [Code](https://github.com/ZichenMiao/Coeff_Tuning)
 
 
