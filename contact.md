@@ -1,13 +1,5 @@
----
-layout: default
-is_contact: true
----
 
-* Email: [cweinone@gmail.com](mailto:cweinone@gmail.com)
 
-* Phone: [+1-412-736-7931](tel:+1-412-736-7931)
-
----
 
 ## Mailing Address
 
