@@ -1,0 +1,5 @@
+---
+title: Blog
+description: Notes and essays by Wei Chen about machine learning research and practice.
+---
+<header class="page-header compact-page-header"><div class="shell"><p class="eyebrow">Blog</p><p class="lead">Essays, technical notes, and reflections on machine learning, research methods, and the ideas behind my work.</p></div></header><section class="section"><div class="shell">{% if site.posts.size > 0 %}<div class="post-list">{% for post in site.posts %}<article class="post-item"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%B %-d, %Y' }}</time><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncatewords: 28 }}</p></article>{% endfor %}</div>{% else %}<div class="empty-state"><h3>Posts will appear here.</h3><p>This section is ready for research notes, technical essays, and longer reflections.</p></div>{% endif %}</div></section>

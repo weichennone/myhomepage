@@ -1,0 +1,17 @@
+---
+title: Home
+description: Wei Chen is a machine learning researcher working on representation learning, generative models, and reliable learning systems.
+---
+<section class="hero home-hero"><div class="shell hero-grid"><div>
+  <p class="eyebrow">Machine Learning | Representation | Generation</p><h1>Wei Chen</h1>
+  <p class="lead">I am a PhD candidate in Electrical and Computer Engineering at Purdue University, advised by <a href="https://web.ics.purdue.edu/~qqiu/">Prof. Qiang Qiu</a>. I work on parameter-efficient adaptation, generative models, and neural representation learning.</p>
+  <div class="hero-actions"><a class="button primary" href="mailto:{{ site.email }}">Email</a><a class="button" href="{{ '/resume.pdf' | relative_url }}">Curriculum vitae</a><a class="button" href="https://www.linkedin.com/in/wei-chen-0793">LinkedIn</a></div>
+</div><img class="portrait" src="{{ '/weichen.jpg' | relative_url }}" alt="Portrait of Wei Chen"></div></section>
+<section class="section selected-work"><div class="shell">
+  <div class="section-heading"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">Complete list</a></div>
+  <div class="publication-list publication-list-visual">{% for publication in site.data.publications %}{% if publication.featured %}{% include publication.html item=publication visual=true %}{% endif %}{% endfor %}</div>
+</div></section>
+<section class="section home-news"><div class="shell">
+  <div class="section-heading"><h2>Recent news</h2></div>
+  <ul class="news-list"><li><time>2025</time><span>"Sparse Fine-Tuning of Transformers for Generative Tasks" accepted to ICCV.</span></li><li><time>2025</time><span>"Coeff-Tuning" accepted to CVPR.</span></li><li><time>2025</time><span>"Large Convolutional Model Tuning via Filter Subspace" accepted to ICLR.</span></li><li><time>May 2024</time><span>Joined Amazon as an Applied Scientist intern.</span></li></ul>
+</div></section>

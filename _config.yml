@@ -1,27 +1,18 @@
-title: Wei Chen's Homepage
-url: "https://weichennone.github.io/"
-baseurl: "/"
-
+title: Wei Chen
+description: Researcher in machine learning, representation learning, and generative models.
+url: "https://weichennone.github.io"
+baseurl: "/myhomepage"
+author: Wei Chen
+email: weichen.will@gmail.com
 markdown: kramdown
-#ins_logo: "./bits-logo.png"
-
-include:
-  - _projects
-
-tracking_id: G-9K3BTEKY98
-
-footer: yes
-footer_url: "https://github.com/ankitsultana"
-footer_text: "Page design by Ankit Sultana"
-
+permalink: /writing/:year/:month/:title/
+include: [_projects]
+defaults:
+  - scope: { path: "" }
+    values: { layout: default }
+  - scope: { path: "", type: posts }
+    values: { layout: post }
 sass:
-    style: compressed
-    sass_dir: _sass
-
-nav:
- - name: "About"
-   link: "/myhomepage/"
-#  - name: "Resume"
-#    link: "resume.pdf"
-#  - name: "Contact"
-#    link: "contact"
+  style: compressed
+  sass_dir: _sass
+exclude: [README.md, LICENSE]

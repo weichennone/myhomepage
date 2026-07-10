@@ -1,0 +1,16 @@
+<article class="publication{% if include.visual and include.item.thumbnail %} publication-visual{% endif %}">
+  {% if include.visual and include.item.thumbnail %}
+    <a class="publication-thumbnail" href="{% if include.item.project %}{{ include.item.project | relative_url }}{% else %}{{ include.item.paper }}{% endif %}" aria-label="View {{ include.item.title }}">
+      <img src="{{ include.item.thumbnail | relative_url }}" alt="{{ include.item.thumbnail_alt }}">
+    </a>
+  {% else %}
+    <div class="publication-year">{{ include.item.year }}</div>
+  {% endif %}
+  <div class="publication-body">
+    <p class="publication-title">{{ include.item.title }}</p>
+    <p class="publication-authors">{{ include.item.authors | replace: 'Wei Chen', '<strong>Wei Chen</strong>' }}</p>
+    <p class="publication-venue">{{ include.item.venue }} | {{ include.item.type }}</p>
+    {% if include.visual and include.item.summary %}<p class="publication-summary">{{ include.item.summary }}</p>{% endif %}
+    <div class="publication-links">{% if include.item.paper %}<a href="{{ include.item.paper }}">Paper</a>{% endif %}{% if include.item.project %}<a href="{{ include.item.project | relative_url }}">Project</a>{% endif %}{% if include.item.code %}<a href="{{ include.item.code }}">Code</a>{% endif %}</div>
+  </div>
+</article>
