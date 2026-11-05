@@ -1,17 +1,109 @@
 ---
 title: Home
-description: Wei Chen is a machine learning researcher working on representation learning, generative models, and reliable learning systems.
+description: Wei Chen is a machine learning researcher working on parameter-efficient adaptation, generative models, and neural representations.
 ---
-<section class="hero home-hero"><div class="shell hero-grid"><div>
-  <p class="eyebrow">Machine Learning | Representation | Generation</p><h1>Wei Chen</h1>
-  <p class="lead">I am a PhD candidate in Electrical and Computer Engineering at Purdue University, advised by <a href="https://web.ics.purdue.edu/~qqiu/">Prof. Qiang Qiu</a>. I work on parameter-efficient adaptation, generative models, and neural representation learning.</p>
-  <div class="hero-actions"><a class="button primary" href="mailto:{{ site.email }}">Email</a><a class="button" href="{{ '/resume.pdf' | relative_url }}">Curriculum vitae</a><a class="button" href="https://www.linkedin.com/in/wei-chen-0793">LinkedIn</a></div>
-</div><img class="portrait" src="{{ '/weichen.JPG' | relative_url }}" alt="Portrait of Wei Chen"></div></section>
-<section class="section selected-work"><div class="shell">
-  <div class="section-heading"><h2>Selected publications</h2><a href="{{ '/publications/' | relative_url }}">Complete list</a></div>
-  <div class="publication-list publication-list-visual">{% for publication in site.data.publications %}{% if publication.featured %}{% include publication.html item=publication visual=true %}{% endif %}{% endfor %}</div>
-</div></section>
-<section class="section home-news"><div class="shell">
-  <div class="section-heading"><h2>Recent news</h2></div>
-  <ul class="news-list"><li><time>2025</time><span>"Sparse Fine-Tuning of Transformers for Generative Tasks" accepted to ICCV.</span></li><li><time>2025</time><span>"Coeff-Tuning" accepted to CVPR.</span></li><li><time>2025</time><span>"Large Convolutional Model Tuning via Filter Subspace" accepted to ICLR.</span></li><li><time>May 2024</time><span>Joined Amazon as an Applied Scientist intern.</span></li></ul>
-</div></section>
+<div class="home-cv">
+  <section class="cv-intro">
+    <div class="shell cv-intro-grid">
+      <img class="cv-portrait" src="{{ '/weichen.JPG' | relative_url }}" alt="Portrait of Wei Chen">
+      <div class="cv-identity">
+        <p class="cv-kicker">PhD Candidate in Electrical and Computer Engineering</p>
+        <h1>Wei Chen</h1>
+        <p class="cv-affiliation">Purdue University · QLab</p>
+      </div>
+      <p class="cv-summary">I study how knowledge is represented, organized, and composed within neural networks. My research develops structured model memories and efficient adaptation methods that help AI systems retrieve, reuse, merge, and continually update learned skills.</p>
+      <nav class="profile-links" aria-label="Professional links">
+        <a href="mailto:{{ site.email }}">Email</a>
+        <a href="{{ '/Resume_WC_20261105.pdf' | relative_url }}">CV</a>
+        <a href="https://www.linkedin.com/in/wei-chen-0793">LinkedIn</a>
+      </nav>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="shell">
+      <h2>Research Focus and Contributions</h2>
+      <dl class="focus-list">
+        <div>
+          <dt>Structured model memory</dt>
+          <dd>Model embedding spaces that organize specialized models by their encoded knowledge, supporting efficient retrieval, reuse, merging, and continual updating.</dd>
+        </div>
+        <div>
+          <dt>Efficient adaptation</dt>
+          <dd>Sparse and filter-subspace methods that adapt less than 1% of model parameters across convolutional networks, transformers, and generative models.</dd>
+        </div>
+        <div>
+          <dt>Compositional learning</dt>
+          <dd>Structured representations that expose relations among models and enable learned concepts, skills, and task adaptations to be selectively combined.</dd>
+        </div>
+      </dl>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="shell">
+      <div class="cv-section-heading">
+        <h2>Selected Publications</h2>
+        <a href="{{ '/publications/' | relative_url }}">Full publication list</a>
+      </div>
+      <div class="publication-list cv-publications">
+        {% for publication in site.data.publications %}{% if publication.featured %}{% include publication.html item=publication %}{% endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section">
+    <div class="shell">
+      <h2>Teaching</h2>
+      <div class="teaching-list">
+        <div class="teaching-entry">
+          <div><strong>Lead Instructor</strong><span>Summer 2026</span></div>
+          <p><a href="https://purdue-ai-bootcamp.github.io/">Job Interview in the AI Era</a> · Course coordination and hands-on materials for approximately 190 in-person and online students.</p>
+        </div>
+        <div class="teaching-entry">
+          <div><strong>Guest Lecturer</strong><span>2026</span></div>
+          <p>ECE 66200 Pattern Recognition · ECE Vertically Integrated Projects</p>
+        </div>
+        <div class="teaching-entry">
+          <div><strong>Teaching Assistant</strong><span>2022–2026</span></div>
+          <p>ECE Vertically Integrated Projects · ECE 50024 Machine Learning · ECE 57000 Artificial Intelligence</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cv-section cv-background">
+    <div class="shell cv-columns">
+      <div>
+        <h2>Education</h2>
+        <div class="cv-entry">
+          <p><strong>PhD Candidate, Electrical and Computer Engineering</strong></p>
+          <p>Purdue University · 2021–2026 · Advised by Prof. Qiang Qiu</p>
+        </div>
+        <div class="cv-entry">
+          <p><strong>MS, Electrical and Computer Engineering</strong></p>
+          <p>Carnegie Mellon University · 2019–2020</p>
+        </div>
+        <div class="cv-entry">
+          <p><strong>MS, Electronic Science and Engineering</strong></p>
+          <p>Nanjing University · 2015–2018</p>
+        </div>
+        <div class="cv-entry">
+          <p><strong>BS, Physics</strong></p>
+          <p>Nanjing University · 2011–2015</p>
+        </div>
+      </div>
+      <div>
+        <h2>Experience</h2>
+        <div class="cv-entry">
+          <p><strong>Research Mentor, Surgical Instrument Identification and Defect Detection</strong></p>
+          <p>Purdue University · 2024–Present</p>
+        </div>
+        <div class="cv-entry">
+          <p><strong>Applied Scientist Intern</strong></p>
+          <p>Amazon · May–August 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
